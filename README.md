@@ -38,9 +38,9 @@
 Everything else in this folder is what I used to analyze and process data, train a model and test the webservice locally.
 
 Contents:
-
-WOZ
-│   README.txt                  - this file
+```
+WOZ 
+│   README.txt                  - this file 
 │   requirements.txt            - required python packages
 │   data_analysis.py            - script to analyze data, can be used both before and after processing data
 │   data_processing.py          - script that processes data, as described in report
@@ -56,10 +56,10 @@ WOZ
 │   │   .npy files with processed data
 │   
 └───out
-|   │   data_analysis.txt                                               - results of data_analysis.py, before processing
-|   │   data_analysis_after_processing.txt                              - results of data_analysis.py, after processing
-|   │   trained_model.sav                                               - model trained in train_random_forest.py
-|   │   .png files with histograms showing features' distributions      - data visualization obtained with data_processing.py
+|   │   data_analysis.txt                                            - results of data_analysis.py, before processing
+|   │   data_analysis_after_processing.txt                           - results of data_analysis.py, after processing
+|   │   trained_model.sav                                            - model trained in train_random_forest.py
+|   │   .png files with histograms showing features' distributions   - data visualization obtained with data_processing.py
 |
 └───RESTWebService
     │   app.ini                - configuration of wsgi
@@ -69,3 +69,4 @@ WOZ
     │   trained_model.sav      - model used by server
     │   wsgi.py                - server's entry point
     │   .dockerignore
+```
