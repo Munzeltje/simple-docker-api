@@ -1,0 +1,33 @@
+area                       object
+average woz               float64
+woz per m2                float64
+single                    float64
+married, no kids          float64
+not married, no kids      float64
+married, with kids        float64
+not married, with kids    float64
+single parent             float64
+other                     float64
+total                     float64
+
+        average woz   woz per m2         single  married, no kids  not married, no kids  married, with kids  not married, with kids  single parent        other          total
+count  3.830000e+02   383.000000     458.000000        438.000000            437.000000          429.000000              421.000000     420.000000   398.000000     464.000000
+mean   2.611422e+05  3125.112272    1044.449782        186.826484            233.725400          239.589744              101.382423     190.095238    31.316583    1939.862069
+std    1.335772e+05   861.275503   11160.202006       1952.073049           2439.597141         2478.402836             1038.466098    1945.271927   311.890111   20862.150139
+min    4.628700e+04  1427.000000       1.000000          1.000000              1.000000            1.000000                1.000000       1.000000     1.000000       1.000000
+25%    1.772200e+05  2320.000000     147.000000         29.250000             37.000000           29.000000               16.000000      21.000000     5.000000     267.750000
+50%    2.306740e+05  3188.000000     460.000000         77.500000             92.000000           87.000000               46.000000      76.500000    12.000000     899.500000
+75%    2.964830e+05  3863.000000     816.000000        135.000000            169.000000          170.000000               73.000000     144.750000    22.750000    1508.500000
+max    1.295077e+06  4620.000000  239179.000000      40915.000000          51069.000000        51392.000000            21341.000000   39920.000000  6232.000000  450048.000000
+
+area                       0
+average woz               99
+woz per m2                99
+single                    24
+married, no kids          44
+not married, no kids      45
+married, with kids        53
+not married, with kids    61
+single parent             62
+other                     84
+total                     18
